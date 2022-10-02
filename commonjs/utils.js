@@ -1,5 +1,11 @@
-module.exports.add = (a, b) => a + b;
-module.exports.subtract = (a, b) => a - b;
-module.exports.multiply = (a, b) => a * b;
-module.exports.divide = (a, b) => a / b;
-module.exports.max = arr => require('lodash-es').maxBy(arr);
+const { maxBy } = require('lodash-es');
+
+const fns = {
+  add: (a, b) => a + b,
+  subtract: (a, b) => a - b,
+  multiply: (a, b) => a * b,
+  divide: (a, b) => a / b,
+  max: arr => maxBy(arr)
+};
+
+Object.keys(fns).forEach(fnName => module.exports[fnName] = fns[fnName]);
