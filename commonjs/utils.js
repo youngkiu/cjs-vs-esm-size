@@ -1,4 +1,4 @@
-const { maxBy } = require('lodash');
+const { maxBy } = require('lodash-es');
 
 const fns = {
   add: (a, b) => a + b,
