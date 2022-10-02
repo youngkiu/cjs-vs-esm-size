@@ -5,7 +5,7 @@ https://web.dev/commonjs-larger-bundles/
 |-----------------------------|:-----------------------------------|------------------------:|--------------------------:|
 | lodash-es@4.17.21           | webpack@4.46.0, webpack-cli@3.3.12 |                  102284 |                      9576 |
 | lodash-es@4.17.21           | webpack@5.74.0, webpack-cli@4.10.0 |                   14511 |                        38 |
-
+| lodash@4.17.21              | webpack@5.74.0, webpack-cli@4.10.0 |                   70908 |                     70851 |
 ```shell
 # webpack-cli v3
 $ node_modules/.bin/webpack --mode production --entry ./commonjs/index.js --output ./dist/cjs.js
