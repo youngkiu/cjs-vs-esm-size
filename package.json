@@ -1,13 +1,13 @@
 {
-  "name": "commonjs-example",
+  "name": "cjs-vs-esm-size",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Minko Gechev <mgechev@gmail.com>",
+  "author": "YoungKi Lyu <youngkiu@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "dependencies": {
     "lodash-es": "^4.17.21"
